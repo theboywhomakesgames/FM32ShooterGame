@@ -1,0 +1,196 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Sina D. Ramezani, :/, LIC=TIVAR-KTV45-0NNAM-XXCYP-E7BG0-U6RNH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  D:\Uni\Micro Processor\Lab\New folder\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Sina D. Ramezani\Desktop\final\MDK-ARM\final.uvprojx
+Project File Date:  02/03/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Uni\Micro Processor\Lab\New folder\Keil\ARM\ARMCC\Bin'
+Build target 'final'
+assembling startup_stm32f303xc.s...
+compiling stm32f3xx_hal_pcd_ex.c...
+compiling stm32f3xx_hal_gpio.c...
+compiling stm32f3xx_hal_adc_ex.c...
+compiling stm32f3xx_hal_uart_ex.c...
+compiling stm32f3xx_hal_i2c.c...
+compiling stm32f3xx_hal_dma.c...
+compiling stm32f3xx_hal_uart.c...
+compiling stm32f3xx_hal_spi.c...
+compiling stm32f3xx_hal_tim.c...
+compiling stm32f3xx_hal_tim_ex.c...
+compiling stm32f3xx_hal.c...
+compiling stm32f3xx_hal_rcc_ex.c...
+compiling stm32f3xx_hal_adc.c...
+compiling stm32f3xx_hal_rcc.c...
+compiling stm32f3xx_hal_flash_ex.c...
+compiling stm32f3xx_hal_pwr.c...
+compiling stm32f3xx_hal_cortex.c...
+compiling stm32f3xx_hal_pcd.c...
+compiling stm32f3xx_hal_flash.c...
+compiling stm32f3xx_hal_pwr_ex.c...
+compiling stm32f3xx_hal_spi_ex.c...
+compiling stm32f3xx_hal_i2c_ex.c...
+compiling stm32f3xx_it.c...
+../Src/stm32f3xx_it.c(258): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart1, data, sizeof(data), 100);	
+../Src/stm32f3xx_it.c(282): warning:  #177-D: variable "number_"  was declared but never referenced
+  	int number_ = 0;
+../Src/stm32f3xx_it.c(309): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>0) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_8, 1);
+../Src/stm32f3xx_it.c(310): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_8, 0);
+../Src/stm32f3xx_it.c(312): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>1) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_9, 1);
+../Src/stm32f3xx_it.c(313): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_9, 0);
+../Src/stm32f3xx_it.c(315): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>2) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, 1);
+../Src/stm32f3xx_it.c(316): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_10, 0);
+../Src/stm32f3xx_it.c(318): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>3) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, 1);
+../Src/stm32f3xx_it.c(319): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, 0);
+../Src/stm32f3xx_it.c(321): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>4) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, 1);
+../Src/stm32f3xx_it.c(322): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, 0);
+../Src/stm32f3xx_it.c(324): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>5) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_13, 1);
+../Src/stm32f3xx_it.c(325): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_13, 0);
+../Src/stm32f3xx_it.c(327): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>6) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_14, 1);
+../Src/stm32f3xx_it.c(328): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_14, 0);
+../Src/stm32f3xx_it.c(330): warning:  #188-D: enumerated type mixed with another type
+  	if(fuelAmount>7) HAL_GPIO_WritePin(GPIOE, GPIO_PIN_15, 1);
+../Src/stm32f3xx_it.c(331): warning:  #188-D: enumerated type mixed with another type
+  	else HAL_GPIO_WritePin(GPIOE, GPIO_PIN_15, 0);
+../Src/stm32f3xx_it.c(514): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, 0);
+../Src/stm32f3xx_it.c(515): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, 1);
+../Src/stm32f3xx_it.c(516): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, 1);
+../Src/stm32f3xx_it.c(517): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, 1);
+../Src/stm32f3xx_it.c(520): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, 0);
+../Src/stm32f3xx_it.c(521): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 0);
+../Src/stm32f3xx_it.c(522): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, 0);
+../Src/stm32f3xx_it.c(523): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, 0);
+../Src/stm32f3xx_it.c(525): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOF, GPIO_PIN_6, 1);
+../Src/stm32f3xx_it.c(530): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, 1);
+../Src/stm32f3xx_it.c(531): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, 0);
+../Src/stm32f3xx_it.c(532): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, 1);
+../Src/stm32f3xx_it.c(533): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, 1);
+../Src/stm32f3xx_it.c(545): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, a[0]);
+../Src/stm32f3xx_it.c(546): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, a[1]);
+../Src/stm32f3xx_it.c(547): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, a[2]);
+../Src/stm32f3xx_it.c(548): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, a[3]);
+../Src/stm32f3xx_it.c(550): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOF, GPIO_PIN_6, 0);
+../Src/stm32f3xx_it.c(554): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, 1);
+../Src/stm32f3xx_it.c(555): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, 1);
+../Src/stm32f3xx_it.c(556): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, 0);
+../Src/stm32f3xx_it.c(557): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, 1);
+../Src/stm32f3xx_it.c(569): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, a[0]);
+../Src/stm32f3xx_it.c(570): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, a[1]);
+../Src/stm32f3xx_it.c(571): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, a[2]);
+../Src/stm32f3xx_it.c(572): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, a[3]);
+../Src/stm32f3xx_it.c(574): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOF, GPIO_PIN_6, 0);
+../Src/stm32f3xx_it.c(578): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, 1);
+../Src/stm32f3xx_it.c(579): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, 1);
+../Src/stm32f3xx_it.c(580): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_7, 1);
+../Src/stm32f3xx_it.c(581): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_8, 0);
+../Src/stm32f3xx_it.c(593): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9, a[0]);
+../Src/stm32f3xx_it.c(594): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, a[1]);
+../Src/stm32f3xx_it.c(595): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, a[2]);
+../Src/stm32f3xx_it.c(596): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, a[3]);
+../Src/stm32f3xx_it.c(598): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOF, GPIO_PIN_6, 0);
+../Src/stm32f3xx_it.c: 54 warnings, 0 errors
+compiling LiquidCrystal.c...
+"no source": Error:  #5: cannot open source input file "C:\Users\mh\Desktop\d\STM32LiquidCrystal-master\src\LiquidCrystal.c": No such file or directory
+C:\Users\mh\Desktop\d\STM32LiquidCrystal-master\src\LiquidCrystal.c: 0 warnings, 1 error
+compiling stm32f3xx_hal_msp.c...
+compiling main.c...
+compiling system_stm32f3xx.c...
+"final\final.axf" - 1 Error(s), 54 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F3xx_DFP.2.1.0.pack
+                Keil.STM32F3xx_DFP.2.1.0
+                STMicroelectronics STM32F3 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_final
+  D:\Uni\Micro Processor\Lab\New folder\Keil\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  D:\Uni\Micro Processor\Lab\New folder\Keil\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Target not created.
+Build Time Elapsed:  00:00:42
+</pre>
+</body>
+</html>

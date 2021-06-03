@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc -I ../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I ../Drivers/CMSIS/Include -I ..\Inc
+-I.\RTE\_final
+-I"D:\Uni\Micro Processor\Lab\New folder\Keil\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include"
+-I"D:\Uni\Micro Processor\Lab\New folder\Keil\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include"
+-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F303xC -DUSE_HAL_DRIVER -DSTM32F303xC
+-o final\stm32f3xx_it.o --omf_browse final\stm32f3xx_it.crf --depend final\stm32f3xx_it.d "../Src/stm32f3xx_it.c"

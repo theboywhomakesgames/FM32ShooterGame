@@ -1,0 +1,59 @@
+void kirekhar(){
+	char data[200];
+	int p = 0;
+	for(int i = 0; i < 4 ;i++){
+		for(int j = 0; j < 20; j++){
+			data[p] = map[i][j];
+			p++;
+		}
+	data[p++] = '%';
+	}
+	// map
+
+	int i = 0;
+	while(i < strlen(name){
+		data[p] = name[i];
+		i++;
+		p++;
+	}
+	data[p++] = '%';
+	// name
+
+	data[p++] = fuelamount;
+	// fuelamount
+
+	data[p++] = lvl;
+	// level
+
+	if(speed < 100){
+		data[p + 1] = speed % 10;
+		data[p] =  (speed / 10) % 10;
+		p += 2;
+	}else{
+		data[p + 2] = speed % 10;
+		data[p + 1] =  (speed / 10) % 10;
+		data[p] = (speed / 100) % 10;
+		p += 3;
+	}
+	data[p++] = '%';
+	// speed
+
+	if(60 - updatecount < 10){
+		data[p] = 60 - updatecount;
+		p++;
+	}else{
+		data[p] = ((60 - updatecount) / 10) % 10;
+		data[p + 1] = (60 - updatecount) % 10;
+		p += 2;
+	}
+	data[p++] = '%';
+	// remaining length of level
+
+	data[p++] = c;
+	data[p++] = r;
+	// plane position
+
+	// time?
+	// score?
+	
+}
